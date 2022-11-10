@@ -1,5 +1,8 @@
+header{
+     background-color: cornflowerblue;
+}
 body{
-    background-color: rgb(32, 223, 223);
+    background-color: rgb(32, 201, 223);
     }
     .titulo-centralizado {
         text-align: center;
@@ -7,3 +10,14 @@ body{
     .titulo-centralizado {
         text-align: center;
     } 
+    nav li {
+       display: inline;
+       margin: 0 0 0 15px;
+    }
+    nav a {
+        text-transform: uppercase;
+        color:rgb(43, 107, 226);
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;
+    }
